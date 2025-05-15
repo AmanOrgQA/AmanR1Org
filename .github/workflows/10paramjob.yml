@@ -1,6 +1,8 @@
-name: GitHub Actions Demo
+name: AmanOrgBranch1
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
+  push:
+    branches: [ "AmanOrgBranch1" ]
   workflow_dispatch:
     inputs:
       environment:

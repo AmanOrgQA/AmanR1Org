@@ -30,7 +30,7 @@ on:
         type: number
         description: 'Version to release'
         required: false
-      dummy11:
+      dummy1:
         type: number
         description: 'Version to release'
         required: false

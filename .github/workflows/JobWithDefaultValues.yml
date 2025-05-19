@@ -1,7 +1,7 @@
-name: JobWithDefaultValues
+name: Job With Default Values
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
-push:
+ push:
     branches: [ "main" ]
   workflow_dispatch:
     inputs:

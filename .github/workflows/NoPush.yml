@@ -1,4 +1,4 @@
-name: Np Push
+name: No Push
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   workflow_dispatch:

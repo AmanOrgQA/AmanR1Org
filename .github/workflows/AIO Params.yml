@@ -5,23 +5,23 @@ on:
     inputs:
       Cycle_Key:
         type: string
-        description: 'Select an environment'
+        description: 'Enter cycle Key'
         required: false
       Project_key:
         type: string
-        description: 'Are you sure you want to deploy?'
+        description: 'Enter project key?'
         default: false
       Case_key_list:
         type: string
-        description: 'Version to release'
+        description: 'Case key list'
         required: false
         default: '1.0.0'
       case_auto_key_list:
         type: string
-        description: 'Choose a region'
+        description: 'case auto key list'
       AIO_API_Token:
         type: string
-        description: 'Version to release'
+        description: 'AIO API Token'
         required: false
 jobs:
   Explore-GitHub-Actions:

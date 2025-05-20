@@ -20,7 +20,7 @@ on:
         type: string
         description: 'Choose a region'
       AIO_API_Token:
-        type: strnig
+        type: string
         description: 'Version to release'
         required: false
 jobs:

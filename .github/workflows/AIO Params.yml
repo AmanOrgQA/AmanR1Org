@@ -36,9 +36,9 @@ jobs:
           ls ${{ github.workspace }}
       - name: Echo provided inputs
         run: |
-          echo "🌍 Environment: ${{ github.event.inputs.environment }}"
-          echo "✅ Confirm Deploy: ${{ github.event.inputs.confirm_deploy }}"
-          echo "📦 Release Version: ${{ github.event.inputs.release_version }}"
-          echo "📦 Current Version: ${{ github.event.inputs.current_version }}"
-          echo "📡 Deployment Region: ${{ github.event.inputs.deployment_region }}"
+          echo "🌍 Cycle_Key: ${{ github.event.inputs. Cycle_Key }}"
+          echo "✅ Project_key: ${{ github.event.inputs.Project_key }}"
+          echo "📦 Case_key_list: ${{ github.event.inputs.Case_key_list }}"
+          echo "📦 case_auto_key_list: ${{ github.event.inputs.case_auto_key_list }}"
+          echo "📡 AIO_API_Token: ${{ github.event.inputs.AIO_API_Token }}"
       - run: echo "🍏 This job's status is ${{ job.status }}."

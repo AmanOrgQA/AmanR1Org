@@ -1,8 +1,6 @@
 name: AIO Params
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
-push:
-    branches: [ "main" ]
   workflow_dispatch:
     inputs:
       Cycle_Key:

@@ -18,7 +18,7 @@ push:
         description: 'Version to release'
         required: false
         default: '1.0.0'
-     case_auto_key_list:
+      case_auto_key_list:
         type: string
         description: 'Choose a region'
       AIO_API_Token:

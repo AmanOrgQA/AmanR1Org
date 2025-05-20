@@ -10,7 +10,6 @@ on:
       Project_key:
         type: string
         description: 'Enter project key?'
-        default: false
       Case_key_list:
         type: string
         description: 'Case key list'

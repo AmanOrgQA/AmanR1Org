@@ -28,6 +28,7 @@ on:
         type: number
         description: 'Version to release'
         required: false
+        default: '1.0.0'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

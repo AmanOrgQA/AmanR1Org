@@ -7,6 +7,7 @@ on:
         type: environment
         description: 'Select an environment'
         required: false
+        default: 'Prod'
       confirm_deploy:
         type: boolean
         description: 'Are you sure you want to deploy?'
@@ -28,7 +29,7 @@ on:
         type: number
         description: 'Version to release'
         required: false
-        default: '1.0.0'
+        default: '3.0.0'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

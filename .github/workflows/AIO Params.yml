@@ -14,7 +14,6 @@ on:
         type: string
         description: 'Case key list'
         required: false
-        default: '1.0.0'
       case_auto_key_list:
         type: string
         description: 'case auto key list'

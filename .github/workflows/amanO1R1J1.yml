@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: No Param mandatory
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   workflow_dispatch:
@@ -6,7 +6,8 @@ on:
       environment:
         type: environment
         description: 'Select an environment'
-        required: true
+        required: false
+        default: 'Prod'
       confirm_deploy:
         type: boolean
         description: 'Are you sure you want to deploy?'
@@ -14,7 +15,7 @@ on:
       release_version:
         type: string
         description: 'Version to release'
-        required: true
+        required: false
         default: '1.0.0'
       deployment_region:
         type: choice
@@ -27,7 +28,8 @@ on:
       current_version:
         type: number
         description: 'Version to release'
-        required: true
+        required: false
+        default: '3.0.0'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

@@ -42,6 +42,10 @@ on:
         type: number
         description: 'Version to release'
         required: false
+      dummy4:
+        type: number
+        description: 'Version to release'
+        required: false
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

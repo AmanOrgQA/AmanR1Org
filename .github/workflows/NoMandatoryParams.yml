@@ -12,10 +12,6 @@ on:
         type: boolean
         description: 'Are you sure you want to deploy?'
         default: false
-      dummy:
-        type: boolean
-        description: 'Are you sure you want to deploy?'
-        default: true
       release_version:
         type: string
         description: 'Version to release'

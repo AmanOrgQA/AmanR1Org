@@ -3,11 +3,6 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   workflow_dispatch:
     inputs:
-      environment:
-        type: env
-        description: 'Select an environment'
-        required: false
-        default: 'Prod'
       confirm_deploy:
         type: boolean
         description: 'Are you sure you want to deploy?'

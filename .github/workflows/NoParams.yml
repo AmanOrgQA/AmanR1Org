@@ -14,11 +14,4 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: Echo provided inputs
-        run: |
-          echo "🌍 Cycle_Key: ${{ github.event.inputs. Cycle_Key }}"
-          echo "✅ Project_key: ${{ github.event.inputs.Project_key }}"
-          echo "📦 Case_key_list: ${{ github.event.inputs.Case_key_list }}"
-          echo "📦 case_auto_key_list: ${{ github.event.inputs.case_auto_key_list }}"
-          echo "📡 AIO_API_Token: ${{ github.event.inputs.AIO_API_Token }}"
       - run: echo "🍏 This job's status is ${{ job.status }}."

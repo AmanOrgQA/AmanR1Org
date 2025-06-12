@@ -23,7 +23,7 @@ on:
           - eu-central
         default: us-east
       current_version:
-        type: number
+        type: string
         description: 'Version to release'
         required: true
       prev_version:

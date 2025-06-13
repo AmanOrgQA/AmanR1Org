@@ -9,6 +9,10 @@ on:
         type: environment
         description: 'Select an environment'
         required: true
+      dummy1:
+        type: string
+        description: 'Select an environment'
+        required: true
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

@@ -5,7 +5,7 @@ on:
     branches: [ "AmanOrgBranch1" ]
   workflow_dispatch:
     inputs:
-      environment:
+      env:
         type: environment
         description: 'Select an environment'
         required: true

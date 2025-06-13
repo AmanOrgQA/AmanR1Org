@@ -12,7 +12,7 @@ on:
       dummy1:
         type: string
         description: 'Select an environment'
-        required: true
+        required: false
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

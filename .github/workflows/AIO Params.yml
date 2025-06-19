@@ -21,6 +21,9 @@ on:
         type: string
         description: 'AIO API Token'
         required: false
+      dummy1:
+        type: string
+        required: false
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

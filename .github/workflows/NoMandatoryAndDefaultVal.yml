@@ -41,7 +41,7 @@ jobs:
           ls ${{ github.workspace }}
       - name: Echo provided inputs
         run: |
-          echo "🌍 Environment: ${{ github.event.inputs.environment }}"
+          echo "🌍 env: ${{ github.event.inputs.env }}"
           echo "✅ Confirm Deploy: ${{ github.event.inputs.confirm_deploy }}"
           echo "📦 Release Version: ${{ github.event.inputs.release_version }}"
           echo "📦 Current Version: ${{ github.event.inputs.current_version }}"
